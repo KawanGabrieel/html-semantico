@@ -21,3 +21,17 @@ ingredientes para o almoço:
 > (Kawan)
 
 ![Mieruko, anime perfeito](https://assets.mubicdn.net/images/film/298634/image-w1280.jpg?1648876789)
+
+
+Este é um método `console.log()` do javascript.
+
+```javascript
+function selecionaElemento() {
+  const body = document.querySelector('body');
+}
+```
+Frutas | Doces     | Salgados
+:------ | :-----:     | --------:
+Banana | Chocolate | Coxinha
+Maçã   | Bala Juquinha | Esfiha
+Uva    | Bombom    | Tapioca
