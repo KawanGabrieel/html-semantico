@@ -7,7 +7,7 @@ texto em **negrito** com asterisco
 texto em __negrito__ com underscore
 
 texto em *italico* com asteristico
-
+ 
 texto em _italico_ com underscore
 
 [Google](https://google.com)
