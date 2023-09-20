@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .elemento-contido, .nao-contido {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            border: 1px solid #000;
+            display: inline-block;
+        }
+        .nao-contido {
+            background-color: yellow;
+        }
+
+        .elemento-container {
+            height: 400px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Demonstração do flexbox</h1>
+    <h2>Flexbox → Flexible Box - Caixa flexível</h2>
+
+    <div class="elemento-container">
+        <div class="elemento-contido">1</div>
+        <div class="elemento-contido">2</div>
+        <div class="elemento-contido">3</div>
+        <div class="elemento-contido">4</div>
+    </div>
+
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+    <div class="nao-contido">N</div>
+</body>
+</html>
